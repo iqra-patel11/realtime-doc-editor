@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff89d6, #b967ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.editor-wrapper {
+  background: white;
+  width: 90%;
+  max-width: 920px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #d44aff;
+  font-weight: bold;
+}
+
+#editor {
+  height: 350px;
+  margin-top: 1rem;
+  border: 2px solid #f5c2f7;
+  border-radius: 10px;
+}
+
+#saveBtn {
+  margin-top: 1.5rem;
+  padding: 12px 28px;
+  background: #ff70a6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#saveBtn:hover {
+  background: #ff3c8e;
+}
+
+#status {
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}
+
+.doc-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.doc-list button {
+  background-color: #f7b8ff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.doc-list button:hover {
+  background-color: #d38cff;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🔥 Real-Time Editor (Fake Collab)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="editor-wrapper">
+    <h1>🔥 Real-Time Doc Editor</h1>
+
+    <div class="doc-list">
+      <button onclick="loadDemo('doc1')">📘 Notes</button>
+      <button onclick="loadDemo('doc2')">📁 Report</button>
+      <button onclick="loadDemo('doc3')">🧠 Ideas</button>
+      <button onclick="openCollabTab()">👥 New Tab</button>
+    </div>
+
+    <div id="editor"></div>
+    <button id="saveBtn">💾 Save</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
